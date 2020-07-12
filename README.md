@@ -18,9 +18,9 @@ The full capabilities of the EthiX AI Assistant go far behind text generation. A
 - [ ] [Tweet Generation](https://www.notion.so/Tweet-Generation-bc100b66aa414346938d89f3bf52b908)
 - [ ] [Instagram Description Generator](https://www.notion.so/Instagram-Description-Generator-de56582afaf647eead889011cc013dbd)
 - [ ] [Poem Generator](https://www.notion.so/Poem-Generator-a551bd250e5f49ed81c714f930c09641)
-- [ ] [Text→Emoji Generator](https://www.notion.so/Text-Emoji-Generator-d5e18b52e10b4e1e907f83d617f8ce35)
-- [ ] [Storytelling](https://www.notion.so/Storytelling-6cfb8fc15f254fbd9619b6de7766496a)
-- [ ] [Film Transcripts](https://www.notion.so/Film-Transcripts-9a940254e6f94751a5f20e73f9df5b28)
+- [x] [Text→Emoji Generator](https://www.notion.so/Text-Emoji-Generator-d5e18b52e10b4e1e907f83d617f8ce35)
+- [x] [Storytelling](https://www.notion.so/Storytelling-6cfb8fc15f254fbd9619b6de7766496a)
+- [x] [Film Transcripts](https://www.notion.so/Film-Transcripts-9a940254e6f94751a5f20e73f9df5b28)
 - [ ] [Q&A](https://www.notion.so/Q-A-48f726c86c3d46fbb503596c6037dfab)
 - [x] [Answer questions on a piece of text](https://www.notion.so/Answer-questions-on-a-piece-of-text-2e3fbb93d53649c0ac724521d9003377): [analysis](./analysis)
 - [ ] [Multiple Choice Answers & Explanation ](https://www.notion.so/Multiple-Choice-Answers-Explanation-d7cf2d59e9ac4fa4aa30dd3864b364c3)
@@ -32,11 +32,11 @@ The full capabilities of the EthiX AI Assistant go far behind text generation. A
 - [x] [Summarization](https://www.notion.so/Summarization-8fa53998f3c642eb850bd864d4d23d99): [analysis](./analysis)
 - [x] [Spellcheck & Capitalization](https://www.notion.so/Spellcheck-Capitalization-b764a4acc49f46f490454f169e701942): [analysis](./analysis)
 - [x] [Text→Command](https://www.notion.so/Text-Command-a09b1c55156940a9bc357872729e4c14): [analysis](./analysis)
-- [ ] [Code Translation](https://www.notion.so/Code-Translation-e313a4fbad7c4dc6a69840a12033beed)
+- [x] [Code Translation](https://www.notion.so/Code-Translation-e313a4fbad7c4dc6a69840a12033beed)
 - [x] [Language Translation](https://www.notion.so/Language-Translation-a57185496d6d416c9c492af83b8af292): [analysis](./analysis)
-- [ ] [Python Palindrome](https://www.notion.so/Python-Palindrome-8496a06e619449cd90924ceb45665840)
-- [ ] [1st→3rd Person Writing](https://www.notion.so/1st-3rd-Person-Writing-2ebf3f7a51db410ea80325a2356f6156)
-- [ ] [Math](https://www.notion.so/Math-5f54d4f1b6e543e0bf144f143c88e43f)
+- [x] [Python Palindrome](https://www.notion.so/Python-Palindrome-8496a06e619449cd90924ceb45665840)
+- [x] [1st→3rd Person Writing](https://www.notion.so/1st-3rd-Person-Writing-2ebf3f7a51db410ea80325a2356f6156)
+- [x] [Math](https://www.notion.so/Math-5f54d4f1b6e543e0bf144f143c88e43f)
 
 # Structure
 
@@ -56,7 +56,7 @@ The **Prompt** categories so far are:
 - [psychology](./psychology/README.md) - Helping you to understand yourself, ask you useful questions, help you to think about self-improvement.
 - [analysis](./analysis/README.md) - Analysing text, for example producing summaries, comprehension tasks, classification, spelling and grammar check, 1st to 3rd person translation, language translation.
 - [sales](./sales/README.md) - Generating product/website/sales copy, social media posts, emails, headline generation.
-- [development](./development/README.md) - Generating code, parsing unstructured data, writing code documentation, Code Translation.
+- [developer](./developer/README.md) - Generating code, parsing unstructured data, writing code documentation, Code Translation.
 
 ## Primers
 

@@ -2,6 +2,19 @@
 
 Prompts that may be useful for developers and the like.
 
+## -> [Parse Unstructured Data](../analysis/README.md#parse)
+## -> [Maths](../analysis/README.md#maths)
+
+## Code Writing
+
+### 🐍Python Palindrome
+
+Prompt:
+```python
+def is_palindrome(s):
+    """Check whether a string is a palindrome"""
+```
+
 ## Text to Command 💻
 ```
 Q: Ask Constance if we need some bread
@@ -26,4 +39,37 @@ A: send-msg `find constance` I won't be home before 19:30 tonight. I have a meet
 Q:
 ```
 
-## 
+## Code Translation
+
+```
+Python:
+list[::-1] 
+Ruby:
+list.reverse 
+
+Python:
+list[1:4] 
+Ruby:
+list[1..4]
+
+Python:
+print("Hello World")
+Ruby:
+puts "Hello World"
+
+Python: 
+fruits = ["apple","banana","cherry"] 
+for x in fruits:
+print(x)
+Ruby: 
+fruit = ["apple", "banana", "cherry"]
+each {|x| print x } 
+
+Python: 
+fruits = ["apple","banana","cherry"] 
+a = list(fruits) 
+print(a) 
+a.reverse() 
+print(a)
+Ruby:
+```

@@ -7,6 +7,48 @@ Included **Prompts** in this category:
 - [Summarisation](./README.md#summarisation)
 
 # Prompts
+## Maths
+
+### **Bounded Ranges**
+
+```
+Lower and upper bound for each quantity:
+  Number of cars in New York: 1500000 to 2500000
+  Number of cars in San Francicso: 300000 to 600000
+  Height of Empire State building: 1400 to 1500 feet
+  Length of average car: 4 to 4.5 meters
+  Population of Germany: 80 to 85 million
+  How much does the iPhone XI cost?: $1000 to $1500
+```
+
+### Arithmetic
+
+#### Basic Addition
+
+```
+1+2= 2
+40 plus 50 equals 90
+```
+
+```
+120+209=329
+980+40=1020
+591+325=926
+123+456=579
+```
+
+NB: For large numbers, the commas are essential, and sometime symbols e.g. $, €, or £ can help.
+
+#### Larger Numbers
+
+```
+7,400,357 + 2,709,779 = 10,110,136
+9,359,517 + 8,280,301 = 17,639,818
+6,885,075 + 9,531,680 = 16,416,755
+3,466,242 + 8,344,302 = 11,810,544
+4,334,300 + 6,629,847 =
+```
+
 <h2 id='spellcheck'> ✔ Spelling & Grammar Checking</h2>
 
 ```
@@ -156,7 +198,7 @@ Please make a table summarizing the conference participants
 | Annie | acwalker@company.com | finance |
 | Joe | joseph.peters@yahoo.com | HR |
 | Molly | juliep@gmail.com | customer support |
-```k
+```
 
 <h2 id='classification'> Classification / Label Generation</h2>
 
