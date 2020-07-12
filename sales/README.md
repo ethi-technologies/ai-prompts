@@ -147,8 +147,15 @@ Product names: Pegasus, Swifty, SunRunner, Wave, Amp
 
 Product description: A zero carbohydrate cereal that tastes great.
 Seed words: fitness, healthy, keto, clean, tasty
-+ Product names: X, Y, Z
-- TODO: Get the completion for this.
++ Product names: Zero Keto, Clean Cut, Carbless, Power Burn
++ 
++ Product description: A robotic vacuum cleaner with an adaptive map and suction control.
++ Seed words: flexible, self-guided, affordable, smart
++ Product names: Zand, Sweep, NaviRoam, GoCart, TrueAuto
++ 
++ Product description: A spray on bed liner that keeps you warm and cozy.
++ Seed words: luxury, space-aged, protective, chemical-free, reversible
++ Product names: Protact, Tempac, Warmth, SmartLiner, LayerSafe
 ```
 
 ## Marketing Strategy Generator
@@ -191,8 +198,27 @@ You want to be on the edge"
 
 "Always wanted to travel back in time to try fighting a younger version of yourself? Software development is the career for you!"
 
-"After 17 years as a professional developer, it seems that the answer to every programming question is "it depends"*
-- TODO: Get completion for this
+"After 17 years as a professional developer, it seems that the answer to every programming question is "it depends""
+
++ "Software development is the only job where I have to update my résumé every day."
++ 
++ "Someday we'll find the contact-closure conditions that make compilers easier. But not today."
++ 
++ "What would happen if the underhanded spam algorithm contest only allowed submissions by honest programmers?"
++ 
++ "Any given technology is usually used in at least two competing non-obvious ways. At some point, the one which is used for communication becomes the dominant one."
++ 
++ "Someone decided to make some programming fonts as ugly as possible and they accidentally invented Unicode."
++ 
++ "Everyone who says "software is eating the world" should also say "software is terrible at digesting the world.""
++ 
++ "In my current project, my head hurts every time I look at the code and my heart aches every time I look at the interface."
++ 
++ "Programming is the ultimate interface challenge: we must ensure that our users feel only delight when using our creations."
++ 
++ "The dark secret of programming is that it's not done until the last user is dead."
++ 
++ "When you choose a programming language, you also choose a meme."
 ```
 
 #### We Rate Dogs-style [](https://twitter.com/dog_rates)
