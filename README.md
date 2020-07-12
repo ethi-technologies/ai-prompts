@@ -5,6 +5,12 @@ The goal of [ai-prompts](https://github.com:ethi-technologies/ai-prompts) is to 
 
 The full capabilities of the EthiX AI Assistant go far behind text generation. As such, interacting with and getting useful responses from the Assistant involves a prompt design process.
 
+# TODO
+
+- [x] OpenAI Prompt Library
+- [ ] [Gwern's Article](https://gwern.net/GPT-3)
+   - [ ] Split Gwerns' article into categories
+
 # Structure
 
 Now that we've gone through the basics of getting started, let's explain the structure of this repo.
