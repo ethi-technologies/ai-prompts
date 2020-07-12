@@ -1,9 +1,9 @@
 # ai-prompts
 Useful prompts for interacting with an AI.
 
-The goal of [ai-prompts](https://github.com:ethi-technologies/ai-prompts) is to be a public effort to construct a platform for collaboration on the design of friendly & useful AI prompts (specifically for use with GPT-3).
+The goal of [ai-prompts](https://github.com:ethi-technologies/ai-prompts) is to be a public effort to construct a platform for collaboration on the design of friendly & useful AI prompts.
 
-The full capabilities of GPT-3 go far behind text generation. As such, interacting with and getting useful responses from GPT-3 involves a prompt design process.
+The full capabilities of the EthiX AI Assistant go far behind text generation. As such, interacting with and getting useful responses from the Assistant involves a prompt design process.
 
 # TODO
 ---
@@ -210,4 +210,4 @@ AI: I'm preparing for OpenAI's robot games. I like playing video games so it's a
 
 This repo is not the sole work of [Ethi](https://ethi.me). It brings together many individuals' and organisations' contributions, for which we are very grateful.
 
-This would not be possible without the incredible work done by OpenAI, and we are grateful to have been granted access to the Closed Beta of the OpenAI API.
+This would not be possible without the incredible work done by OpenAI.
