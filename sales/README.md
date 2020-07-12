@@ -5,7 +5,8 @@ Marketing copy, product descriptions, email generation, social media post genera
 ## 📤Email Generator
 ### Bullet Points -> Email Generator
 
-**[[Email Received:]]
+```diff
+[[Email Received:]]
 Dear John
 I am writing to ask whether you might be interested in reviewing a manuscript that has been submitted to Nature Machine Intelligence. The work comes from the lab of Jan Teller and is entitled “A neural quantum computer for learning entanglement”. Its abstract is pasted below.
 
@@ -28,18 +29,18 @@ Nature Machine Intelligence
 * oversubscribed, two small children at home, wife has a full-time job 
 * good luck
 
-[[Draft Reply:]]**
-<div style="color:hotpink;">Dear Tony,
-Unfortunately with two small children at home due to COVID, and my wife and I with full-time jobs, it is impossible for me to take on additional tasks. I apologize 
-for having to decline and wish you the best of luck in finding a reviewer. 
+[[Draft Reply:]]
++ Dear Tony,
++ Unfortunately with two small children at home due to COVID, and my wife and I with full-time jobs, it is impossible for me to take on additional tasks. I apologize 
++ for having to decline and wish you the best of luck in finding a reviewer. 
 
-John
-</div>
-
++ John
+```
 
 ### Sentence -> Email Generator
 
-**Thank John for the book. 
+```diff
+Thank John for the book. 
 
 --
 
@@ -51,9 +52,9 @@ I hope to hang out soon.
 
 Your friend, 
 
-Sarah**
+Sarah
 
-**Tell TechCorp I appreciate the great service.
+Tell TechCorp I appreciate the great service.
 
 --
 
@@ -83,29 +84,26 @@ Emily Fields
 
 Invite Amanda and Paul to the company event Friday night. 
 
---**
-Dear Amanda and Paul,
-
-I hope this finds you doing well. 
-
-I want to invite you to our company event on Friday night. 
-
-It will be a great opportunity for networking and there will be food and drinks. 
-
-Should be fun. 
-
-Best, 
-
-Ryan
-
-**Ask RAM Co. if they have new storage units in stock.
-
---**
++ --
++ Dear Amanda and Paul,
++ 
++ I hope this finds you doing well. 
++ 
++ I want to invite you to our company event on Friday night. 
++ 
++ It will be a great opportunity for networking and there will be food and drinks. 
++ 
++ Should be fun. 
++ 
++ Best, 
++ 
++ Ryan
+``` 
 
 ## Headline Generation
-[**Bold** = **Prompt**, normal = AI]
 
-**Topic: Britain, coronavirus, beaches
+```diff
+Topic: Britain, coronavirus, beaches
 Headline: Videos show crowded beaches in Britain
 
 Topic: Apple, Big Sur, software
@@ -115,26 +113,29 @@ Topic: Artic, climate change, satellite
 Headline: A Satellite Lets Scientists See Antarctica’s Melting Like Never Before
 
 Topic: Chicago, restaurants, summer
-Headline:** How Chicago’s Famed Restaurants Are Coping With The Heat
++ Headline: How Chicago’s Famed Restaurants Are Coping With The Heat
+```
 
 ## Copywriting
 
 ### Website Copy
 
-**ABOUT US
+```diff
+ABOUT US
 
 {Brief description of organisation}
 
-OUR MISSION**
+OUR MISSION
 
-{AI Generated About Us page}
++ {AI Generated About Us page}
+```
 
 ### Product Copy
 
 #### Product Name Generator
-[**Bold** = **Prompt**, normal = AI]
 
-**This is a product name generator. It takes a product's description and seed words, then outputs a list of potential product names.
+```diff
+This is a product name generator. It takes a product's description and seed words, then outputs a list of potential product names.
 
 Product description: A complete home gym that can fit in any apartment.
 Seed words: intelligent, aspirational, luxury, futuristic
@@ -146,23 +147,26 @@ Product names: Pegasus, Swifty, SunRunner, Wave, Amp
 
 Product description: A zero carbohydrate cereal that tastes great.
 Seed words: fitness, healthy, keto, clean, tasty
-Product names:**
++ Product names: X, Y, Z
+- TODO: Get the completion for this.
+```
 
 ## Marketing Strategy Generator
 
-[**Bold** = **Prompt**, normal = AI]
-
-**Please give me a marketing strategy for: Sharing my blog post on Medium 
+```diff
+Please give me a marketing strategy for: Sharing my blog post on Medium 
 about using OpenAI to create marketing strategies, tweets, and Instagram 
 descriptions.
 
 Target Audience: People interested in OpenAI, and the creative process. 
 Marketers looking for tools to make better campaigns.
 
-Strategy:** Use OpenAI to help write the blog post (and a different messaging
-strategy for social media) and create fun graphics for twitter and instagram
-that tell the narrative of the story. Drive traffic to the post and try to get
-posted in a relevant group on Medium.
+Strategy:
++ Use OpenAI to help write the blog post (and a different messaging
++ strategy for social media) and create fun graphics for twitter and instagram
++ that tell the narrative of the story. Drive traffic to the post and try to get
++ posted in a relevant group on Medium.
+```
 
 ## Social Media Generation
 
@@ -170,7 +174,8 @@ posted in a relevant group on Medium.
 
 #### Programming Tweets
 
-**My favorite programming tweets:
+```diff
+My favorite programming tweets:
 
 "I asked @ilyasut how to set neural network init. He accidentally replied with a poem:
 You want to be on the edge of chaos
@@ -186,38 +191,37 @@ You want to be on the edge"
 
 "Always wanted to travel back in time to try fighting a younger version of yourself? Software development is the career for you!"
 
-"After 17 years as a professional developer, it seems that the answer to every programming question is "it depends""**
+"After 17 years as a professional developer, it seems that the answer to every programming question is "it depends"*
+- TODO: Get completion for this
+```
 
 #### We Rate Dogs-style [](https://twitter.com/dog_rates)
 
-[**Bold** = **Prompt**, normal = AI]
-
-**-(Kevin, ruptured ACL) This is Kevin. He’s already had a few surgeries to correct leg problems. Sadly, he now needs one more to fix a ruptured ACL. His family 
+```diff
+(Kevin, ruptured ACL) This is Kevin. He’s already had a few surgeries to correct leg problems. Sadly, he now needs one more to fix a ruptured ACL. His family 
 fosters for a Great Pyrenees rescue, so he currently has many friends cheering him on. You can help Kevin below. 13/10
 
--(Hank, sit) This is Hank. He did his first sit today. Hopes you're proud of him. 12/10 thank you Hank we needed this
+(Hank, sit) This is Hank. He did his first sit today. Hopes you're proud of him. 12/10 thank you Hank we needed this
 
--(Dory, dandelion) This is Dory. He got tired walking up the hill but that’s okay because he brought his wagon. Then he ate a dandelion. 14/10 overall a lovely 
-evening
++ (Dory, dandelion) This is Dory. He got tired walking up the hill but that’s okay because he brought his wagon. Then he ate a dandelion. 14/10 overall a lovely evening
 
--(Sushi, pancake) This is Sushi. She knows it’s been a long day. Offering to split her pancake with you. 14/10 thank you Sushi that’s very kind
-
--(wild horses) We only rate dogs. These are perfectly synchronized wild horses. 
-Please learn the difference. Thank you... both 13/10**
++ (Sushi, pancake) This is Sushi. She knows it’s been a long day. Offering to split her pancake with you. 14/10 thank you Sushi that’s very kind
+```
 
 ### 📸Instagram Description Generation
 
+```diff
 Below are some witty fun descriptions for Instagram pictures:
 
 Picture: ...
 Fun description: ...
 
-**[Picture](https://www.instagram.com/p/CCEVvqCAiQz/): Picture of Stanley from the Office saying "Did I stutter?" and "Have you lost your damn mind?". Movie poster for Stutter Island.
-Description**: Stanley, Stutter island sucks
+[Picture](https://www.instagram.com/p/CCEVvqCAiQz/): Picture of Stanley from the Office saying "Did I stutter?" and "Have you lost your damn mind?". Movie poster for Stutter Island.
++ Fun description: Stanley, Stutter island sucks
 
 **[Picture](https://www.instagram.com/p/CB-SG7AY02/): WWE wrestler body slams another wrestler on the mat. "Nobody: ... Me to my bag of ice after I buy it:"
-Description**: You’re good at what you do
++ Fun description: You’re good at what you do
 
 **[Picture:](https://www.instagram.com/p/CB9XCEJAzRV) Man standing behind tree, licking his lips and rubbing his hands schemin. "4yo me seeing a leaf with high crunch potential."
-Description**: I gotta have that crunch
-
++ Fun description: I gotta have that crunch
+```

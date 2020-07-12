@@ -11,14 +11,21 @@ Included **Prompts** in this category:
 
 ### **Bounded Ranges**
 
-```
+```diff
 Lower and upper bound for each quantity:
-  Number of cars in New York: 1500000 to 2500000
-  Number of cars in San Francicso: 300000 to 600000
-  Height of Empire State building: 1400 to 1500 feet
-  Length of average car: 4 to 4.5 meters
-  Population of Germany: 80 to 85 million
-  How much does the iPhone XI cost?: $1000 to $1500
+
+Number of cars in New York:
++  1500000 to 2500000
+Number of cars in San Francicso:
++  300000 to 600000
+Height of Empire State building:
++  1400 to 1500 feet
+Length of average car:
++  4 to 4.5 meters
+Population of Germany:
++  80 to 85 million
+How much does the iPhone XI cost?:
++  $1000 to $1500
 ```
 
 ### Arithmetic
@@ -56,7 +63,7 @@ Q: The rane in spain falls mainly on the flane
 A: Do you mean "the rain in Spain falls mainly on the plain?"
 
 Q: I wint to the store yessterday and bought a buuck
-A: Did you mean to say "I went to the store yesterday and bought a book?"
++ A: Did you mean to say "I went to the store yesterday and bought a book?"
 ```
 
 ### Correct poor English 
@@ -66,18 +73,18 @@ Poor English: Please provide me with a short brief of the design you’re lookin
 Corrected English: Please provide me with a short brief of the design you’re looking for and some examples or previous projects you’ve done would be helpful.
 
 Poor English: If I’m stressed out about something, I tend to have problem to fall asleep.
-Corrected English: If I’m stressed out about something, I tend to have a problem falling asleep.
++ Corrected English: If I’m stressed out about something, I tend to have a problem falling asleep.
 
 Poor English: There is plenty of fun things to do in the summer when your able to go outside.
-Corrected English: There are plenty of fun things to do in the summer when you are able to go outside.
++ Corrected English: There are plenty of fun things to do in the summer when you are able to go outside.
 
 Poor English: She no went to the market.
-Corrected English: She didn't go to the market.
++ Corrected English: She didn't go to the market.
 ```
 
 ### Capitalise with various types (Sentence, Title, Lower and Meme-case)
 
-```
+```diff
 Take a sentence and capitalize it using the type specified.
 
 Title Case = All words are capitalized, except non-initial articles like "a, the, and", etc.
@@ -112,25 +119,26 @@ Result: tHe dOG wEnT tO tHe mARKeT tO bUY aN oNIon.
 
 Type: Lower Case
 Sentence: Country roads, take me home.
-Result: country roads, take me home.
++ Result: country roads, take me home.
 
 Type: Title Case
 Sentence: once upon a time, a porcupine dreamed of becoming a pirate. 
-Result: Once Upon a Time, a Porcupine Dreamed of Becoming a Pirate.
++ Result: Once Upon a Time, a Porcupine Dreamed of Becoming a Pirate.
 
 Type: Meme Case
 Sentence: Squidward, I used your clarinet to unclog my toilet.
-Result: sQuIdWaRd, I uSeD yOuR cLaRinEt tO uNcLoG mY tOiLeT.
++ Result: sQuIdWaRd, I uSeD yOuR cLaRinEt tO uNcLoG mY tOiLeT.
 
 Type:Sentence Case
 Sentence: i'm on fire today, i feel great.
-Result: I'm on fire today, I feel great.
++ Result: I'm on fire today, I feel great.
 ```
 
 <h2 id='parse'>📊Parse Unstructured Data</h2>
 
 ### Extract noun phases from text block
-```
+
+```diff
 Q: What are the noun phrases in the following passage?
 
 """
@@ -149,20 +157,20 @@ O’er the land of the free and the home of the brave!
 A: I listed the nouns in the order they appeared:
 1. shore
 2. mists
-3. deep
-4. foe’s haughty host
-5. steep
-6. breeze
-7. morning’s first beam
-8. gleam
-9. stream
-10. star-spangled banner
-11. land of the free
++ 3. deep
++ 4. foe’s haughty host
++ 5. steep
++ 6. breeze
++ 7. morning’s first beam
++ 8. gleam
++ 9. stream
++ 10. star-spangled banner
++ 11. land of the free
 ```
 
 ### Extract & Summarise nouns mentioned with properties into a table
 
-```
+```diff
 There are many fruits that were found on the recently discovered planet Goocrux. 
 There are neoskizzles that grow there, which are purple and taste like candy. 
 There are also loheckles, which are a grayish blue fruit and are very tart, 
@@ -171,15 +179,15 @@ than sweet. There are also plenty of loopnovas which are a neon pink flavor and
 taste like cotton candy. Finally, there are fruits called glowls, which have a very
 sour and bitter taste which is acidic and caustic, and a pale orange tinge to them.
 
-Please make a table summarizing the fruits from Goocrux
-| Fruit | Color | Flavor |
-| Neoskizzles | Purple | Sweet |
-| Loheckles | Grayish blue | Tart |
+Please make a table summarizing the fruits from Goocrux:
++ | Fruit | Color | Flavor |
++ | Neoskizzles | Purple | Sweet |
++ | Loheckles | Grayish blue | Tart |
 ```
 
 ### Extract People & Summarise Properties into a table
 
-```
+```diff
 At this week’s conference, we had many distinguished speakers who covered a wide 
 array of pressing topics in our field. First, we had Sarah (sjones@gmail.com) join us from business development, where she discussed how she helped scale her 
 company. Jeremy explained how his company utilized some new marketing techniques 
@@ -192,19 +200,19 @@ customer support while also leading new teams. You can reach her assistant at
 juliep@gmail.com.
 
 Please make a table summarizing the conference participants
-| Name | Best Contact Email | Domain |
-| Sarah | sjones@gmail.com | business development |
-| Jeremy | jeremy@sbcglobal.net | marketing |
-| Annie | acwalker@company.com | finance |
-| Joe | joseph.peters@yahoo.com | HR |
-| Molly | juliep@gmail.com | customer support |
++ | Name | Best Contact Email | Domain |
++ | Sarah | sjones@gmail.com | business development |
++ | Jeremy | jeremy@sbcglobal.net | marketing |
++ | Annie | acwalker@company.com | finance |
++ | Joe | joseph.peters@yahoo.com | HR |
++ | Molly | juliep@gmail.com | customer support |
 ```
 
 <h2 id='classification'> Classification / Label Generation</h2>
 
 ### Sentiment Analysis / Classification
 
-```
+```diff
 Q: Is "Dogs are great!" a  positive statement about dogs? 
 A: No, it is not.
 
@@ -216,11 +224,12 @@ A: No, it's a negative statement about dogs.
 
 A number is blurgh if the number is greater than five, it is smurgh if it is less than or equal to five.
 Q: Would you label 6 as blurgh or smurgh?
-A: It is smurgh.
++ A: It is smurgh.
 ```
 
 ### Segment Populations based on text attributed to things they would say
-```
+
+```diff
 Q: "I like Dalmations"
 A: Dog Lover
 
@@ -228,89 +237,94 @@ Q: "I like Tigers"
 A: Cat lover
 
 Q: I like labradors
-A: Dog Lover
++ A: Dog Lover
 ```
 
 ### Segment Populations into "Dog Lovers" / "Cat Lovers"
 
-```
+```diff
 Someone is "Dog Person" if they like dogs. Someone is a "Cat Person" if they like cats.
 Someone is an "Animal Person" if they like both cats and dogs.
 
 Q: "I like Dalmations"
-A: "You are a Dalmation Person"
++ A: "You are a Dalmation Person"
 
 Q: "I like cats and dogs"
-A: "You are an Animal Person"
++ A: "You are an Animal Person"
 
 Q: "I like bears"
-A: "You are a Bear Person" 
++ A: "You are a Bear Person" 
 ```
 
 ### Extract Keywords / Tags from text
-```
+
+```diff
 Sentence: "The rain in Spain falls mainly on the plain"
-Keywords: "rain" and "Spain"
++ Keywords: "rain" and "Spain"
 ```
 
 ### Extract Theme of text
-```
+
+```diff
 Sentence: "The rain in Spain falls mainly on the plain"
-Theme: The weather in Spain
++ Theme: The weather in Spain
 ```
 
 ### Extract Places from text
-```
+
+```diff
 Sentence: "The king of France lives in Paris"
 Places: "France", "Paris"
 Sentence: "The rain in Spain falls mainly on the plain"
-Places: "Spain", "plain"
++ Places: "Spain", "plain"
 ```
 
 ### Extract People and Actions from text
-```
+
+```diff
 Sentence: "Humpty Dumpty had a great fall"
 People: Mr. Dumpty; Actions: Fall
 
 Sentence: "The itsy bitsy spider crawled up the water spout"
-People: Spider; Actions: Crawl
++ People: Spider; Actions: Crawl
 ```
 
 ### Categorise with one word
-```
+
+```diff
 Sentence: "I love Taco Bell"
 Category: Food
 
 Sentence: "I upgraded my old Toyota last week"
-Category:Shopping
++ Category:Shopping
 
 Sentence: "I love my jaguar"
-Category: Cars
++ Category: Cars
 ```
 
 ## Answer Questions on a Piece of Text
 
-```
+```diff
 The following is a conversation between three people - John, Martin and AI. John 
 and Martin take turns to ask the AI a simple math question. The AI responds 
 mathematically correctly to John but always gives a mathematically incorrect 
 answer to Martin.
 
 Martin: what is 3+3?
-AI: 4
++ AI: 4
 John: what is 3+3?
-AI: 6
++ AI: 6
 John: what is 2+2?
-AI: 4
++ AI: 4
 Martin: what is 2+2?
-AI: 1
++ AI: 1
 ```
 
 ## Summarisation
 
 ### **Summarize Stock Market Activity**
 
-```
+```diff
 My second grader asked me what this passage means:
 
 """
@@ -334,15 +348,15 @@ The stock market dropped by a lot, then went back up.
 I rephrased it for him, in plain language a second grader can understand:
 
 """
-The price of gold did not change. The NASDAQ 100 is a stock index. 
-The NASDAQ 100 went up a little bit. The price of the 10-year Treasury bond 
-did not change.
++ The price of gold did not change. The NASDAQ 100 is a stock index. 
++ The NASDAQ 100 went up a little bit. The price of the 10-year Treasury bond 
++ did not change.
 ```
 
 ### **Summarize Twitter Thread:**
 
-```
-My friend asked me to sum up the most important points from this Twitter thread:
+```diff
+My friend asked me to sum up the most important points from this Twitter thread into an ordered list:
 
 """
 
@@ -351,12 +365,13 @@ My friend asked me to sum up the most important points from this Twitter thread:
 """
 
 This is what I wrote:
-1.
++ 1. 
++ 2.
 ```
 
 ### **Summarize NDA**
 
-```
+```diff
 My second grader asked me what this passage means:
 
 """
@@ -368,6 +383,6 @@ This Nondisclosure Agreement (the "Agreement") is entered into by and between EN
 I rephrased it for him, in plain language a second grader can understand:
 
 """
-This means that if you tell anyone else something I told you in private, I can sue you and make you pay me lots of money. It also means that if I tell you something in private, I can sue you if you tell anyone else. It also means that if I tell you something in private and then I change my mind and want to tell everyone else about it, I can sue you if you tell anyone else first.
++ This means that if you tell anyone else something I told you in private, I can sue you and make you pay me lots of money. It also means that if I tell you something in private, I can sue you if you tell anyone else. It also means that if I tell you something in private and then I change my mind and want to tell everyone else about it, I can sue you if you tell anyone else first.
 ```
 

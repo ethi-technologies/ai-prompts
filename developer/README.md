@@ -16,32 +16,31 @@ def is_palindrome(s):
 ```
 
 ## Text to Command 💻
-```
+
+```diff
 Q: Ask Constance if we need some bread
 A: send-msg `find constance` Do we need some bread?
 
 Q: Send a message to Greg to figure out if things are ready for Wednesday.
-A: send-msg `find greg` Is everything ready for Wednesday
++ A: send-msg `find greg` Is everything ready for Wednesday
 
 Q: Ask Ilya if we're still having our meeting this evening
-A: send-msg `find ilya` Are we still having a meeting this evening?
++ A: send-msg `find ilya` Are we still having a meeting this evening?
 
 Q: Contact the ski store and figure out if I can get my skis fixed before I leave on Thursday
-A: send-msg `find ski store` Would it be possible to get my skis fixed before I 
++ A: send-msg `find ski store` Would it be possible to get my skis fixed before I 
 leave on Thursday?
 
 Q: Thank Nicolas for lunch
-A: send-msg `find nicolas` Thank you for lunch!
++ A: send-msg `find nicolas` Thank you for lunch!
 
 Q: Tell Constance that I won't be home before 19:30 tonight — unmovable meeting.
-A: send-msg `find constance` I won't be home before 19:30 tonight. I have a meeting I can't move.
-
-Q:
++ A: send-msg `find constance` I won't be home before 19:30 tonight. I have a meeting I can't move.
 ```
 
 ## Code Translation
 
-```
+```diff
 Python:
 list[::-1] 
 Ruby:
@@ -50,20 +49,20 @@ list.reverse
 Python:
 list[1:4] 
 Ruby:
-list[1..4]
++ list[1..4]
 
 Python:
 print("Hello World")
 Ruby:
-puts "Hello World"
++ puts "Hello World"
 
 Python: 
 fruits = ["apple","banana","cherry"] 
 for x in fruits:
 print(x)
-Ruby: 
-fruit = ["apple", "banana", "cherry"]
-each {|x| print x } 
++ Ruby: 
++ fruit = ["apple", "banana", "cherry"]
++ each {|x| print x } 
 
 Python: 
 fruits = ["apple","banana","cherry"] 
@@ -71,5 +70,4 @@ a = list(fruits)
 print(a) 
 a.reverse() 
 print(a)
-Ruby:
 ```
