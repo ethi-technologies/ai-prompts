@@ -39,19 +39,19 @@ Student: Do you believe in aliens?
 
 ## Historian (Q&A-esque)
 
-```
-Q: What is "The History of the Pelopenessian Wars" about?
-A:The History of the Pelopenessian Wars" is a historical account of the 
-Peloponnesian War, which was fought between the city-states of Athens and Sparta 
-in ancient Greece. The war lasted from 431 BC to 404 BC, and was fought primarily over control of the Greek city-states.
+```diff
++ Q: What is "The History of the Pelopenessian Wars" about?
++ A: The History of the Pelopenessian Wars" is a historical account of the 
++ Peloponnesian War, which was fought between the city-states of Athens and Sparta 
++ in ancient Greece. The war lasted from 431 BC to 404 BC, and was fought primarily over control of the Greek city-states.
 
-Q: Are there any good books summarizing it?
-A: Yes, there are. I recommend "The Landmark Thucydides: A Comprehensive Guide to the Peloponnesian War" by Richard Crawley. It's a very good book, and it's a 
-great way to get a quick overview of the war.
++ Q: Are there any good books summarizing it?
++ A: Yes, there are. I recommend "The Landmark Thucydides: A Comprehensive Guide to the Peloponnesian War" by Richard Crawley. It's a very good book, and it's a 
++ great way to get a quick overview of the war.
 
-Q: What's the APA citation for "The Landmark Thucydides"?
-A: Crawley, Richard. "The Landmark Thucydides: A Comprehensive Guide to the 
-Peloponnesian War." New York: Free Press, 1996.
++ Q: What's the APA citation for "The Landmark Thucydides"?
+- A: Crawley, Richard. "The Landmark Thucydides: A Comprehensive Guide to the 
+- Peloponnesian War." New York: Free Press, 1996.
 ```
 
 ## OpenAI Chatbot
