@@ -7,6 +7,32 @@ Prompts that may be useful for developers and the like.
 
 ## Code Writing
 
+### React Component Generator
+
+```
+import React from 'react';
+
+const ThreeButtonComponent=()=>(
++ 
++ <div>
++ 
++ <p>Button One</p>
++ 
++ <button className="button-green" onClick={this.handleButtonClick}>Button One</button>
++ 
++ <p>Button Two</p>
++ 
++ <button className="button-green" onClick={this.handleButtonClick}>Button Two</button>
++ 
++ <p>Button Three</p>
++ 
++ <button className="button-green" onClick={this.handleButtonClick}>Button Three</button>
++ 
++ </div>
++ 
++ )
+```
+
 ### 🐍Python Palindrome
 
 Prompt:
