@@ -28,7 +28,11 @@ The **Prompt** categories so far are:
 
 ## Primers
 
-**Primers** are similar conceptually to **Prompts**, however, **Primers** are designed to impart contextual knowledge to the Assistant. Our aim with **Primers** is to _prime_ the Assistant with relevant information as densely as possible. For example, for interactions with involving [psychology](./psychology) prompts, you would want the Assistant to understand as much as possible about you in order to give responses that are more relevant _to you_. **Primers** are our attempt to figure out the most information dense way of priming **Prompts** with contextual information.
+**Primers** are similar conceptually to **Prompts**, however, **Primers** are designed to impart contextual knowledge to the Assistant.
+
+Our aim with **Primers** is to _prime_ the Assistant with relevant information as densely as possible. For example, for interactions with involving [psychology](./psychology) prompts, you would want the Assistant to understand as much as possible about you in order to give responses that are more relevant _to you_.
+
+**Primers** are our attempt to figure out the most information dense way of priming **Prompts** with contextual information.
 
 <hr>
 
@@ -37,6 +41,8 @@ The **Prompt** categories so far are:
 Please ensure any contributions made endeavour to maintain a high standard for human readability for those humans who may find this repo useful.
 
 Those of you who have never heard of YAML, don't worry - it's perfectly readable and you should get the hang of it pretty easily. It's just a way of ensuring the data has a readable but consistent, machine-readable structure.
+
+We also include more human readable examples in the README.md file for each directory - we welcome any contributions to that effect as well.
 
 # Guide (from OpenAI, adjusted for EthiX)
 
