@@ -42,7 +42,7 @@ Nature Machine Intelligence
 ```diff
 Thank John for the book. 
 
---
+"""
 
 Dear John,
 
@@ -54,9 +54,11 @@ Your friend,
 
 Sarah
 
+"""
+
 Tell TechCorp I appreciate the great service.
 
---
+"""
 
 To Whom it May Concern, 
 
@@ -68,9 +70,11 @@ Sincerely,
 
 Bill Johnson
 
+"""
+
 Invoice Kelly Watkins $500 for design consultation.
 
---
+"""
 
 Dear Ms. Watkins, 
 
@@ -84,7 +88,8 @@ Emily Fields
 
 Invite Amanda and Paul to the company event Friday night. 
 
-+ --
+"""
++
 + Dear Amanda and Paul,
 + 
 + I hope this finds you doing well. 
@@ -98,6 +103,8 @@ Invite Amanda and Paul to the company event Friday night.
 + Best, 
 + 
 + Ryan
++
++ """
 ``` 
 
 ## Headline Generation
