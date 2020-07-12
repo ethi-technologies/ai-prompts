@@ -65,8 +65,7 @@ A man wants to be a successful clown, but realizes that he is no good.
 + A man is seen everywhere committing a murder. He cannot be seen, though.
 
 + 12. The Champ. 
-+ A boxer gets addicted to morphine after an injury. He tries to fight his 
-addiction.
++ A boxer gets addicted to morphine after an injury. He tries to fight his addiction.
 
 + 13. The Plant. 
 + A woman has a rare African plant named after her. She is taken prisoner by a rich collector who wants the plant.
