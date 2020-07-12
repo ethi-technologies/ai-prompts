@@ -18,8 +18,8 @@ We've split prompts into different directories; we've tried to make each directo
 The **Prompt** categories so far are:
 - [playground](./playground/README.md) - Miscellaneous, fun and interesting prompts that don't fit any other category.
 - [analysis](./analysis/README.md) - Analysing text, for example producing summaries, comprehension tasks, classification, spelling and grammar check, 1st to 3rd person translation, language translation.
-- [creative](./creative/README.md) - Creative pursuits, like writing a short story, a poem or generating fictional text in the style of famous authors.
 - [chatbots](./chatbots/README.md) - Helping you to understand yourself, ask you useful questions, help you to think about self-improvement.
+- [creative](./creative/README.md) - Creative pursuits, like writing a short story, a poem or generating fictional text in the style of famous authors.
 - [developer](./developer/README.md) - Generating code, parsing unstructured data, writing code documentation, Code Translation.
 - [informative](./informative/README.md) - Information querying. The AI has read _all_ of the internet, these prompts help you to query the AI for useful information. This might involve a Q & A with a famous scientist, or explaining topics as if to a 5 year old.
 - [psychology](./psychology/README.md) - Helping you to understand yourself, ask you useful questions, help you to think about self-improvement.
