@@ -121,28 +121,26 @@ As discussed in the previous section, completions can vary a lot based on how th
 
 You can get the API to answer questions by simply providing a few examples of questions and answers, like this:
 
-```
-Q: What is human life expectancy in the United States?
-A: Human life expectancy in the United States is 78 years.
+```diff
+Q: What is human life expectancy in the United Kingdom?
++ A:  79
++ Q: What is human life expectancy in Russia?
++ A:  66
  
 Q: Who was president of the United States in 1955?
-A: Dwight D. Eisenhower was president of the United States in 1955.
++ A: Dwight D. Eisenhower was president of the United States in 1955.
  
 Q: What party did he belong to?
-A: He belonged to the Republican Party.
++ A: He belonged to the Republican Party.
  
 Q: Who was president of the United States before George W. Bush?
-A: Bill Clinton was president of the United States before George W. Bush.
++ A: Bill Clinton was president of the United States before George W. Bush.
  
 Q: Who won the World Series in 1995?
-A: The Atlanta Braves won the World Series in 1995.
++ A: The Atlanta Braves won the World Series in 1995.
 ```
 
-When there’s a single right answer, it’s usually a good idea to keep the temperature setting low. So for trivia-like questions like the ones above, you can pick temperature 0 which makes the completion completely deterministic.
-
-For applications where you want more “creativity,” you can increase the randomness of the output by setting a higher temperature. For example, if you’d like the API to complete a poem, a temperature of 1 might be a good choice:
-
-```
+```diff
 [From [https://en.wikipedia.org/wiki/In_Memoriam_A.H.H](https://en.wikipedia.org/wiki/In_Memoriam_A.H.H)]
 
 Who trusted God was love indeed
@@ -153,25 +151,24 @@ The hills are shadows, and they flow
 From form to form, and nothing stands;T
 hey melt like mist, the solid lands,
 Like clouds they shape themselves and go.
-----
-Where are the stars? The mighty sun?
-Of space—and time—and matter—where?
-What mightier hand than God’s could fling
-The stars around the sky like sand?
-Whose throes convuls’d the deepest sea,
-And bade the abyss its secrets roar?
-If Nature’s laws the stars control,
-Then God is less than Nature’s soul.
-white_check_markeyesraised_hands
+
++ Where are the stars? The mighty sun?
++ Of space—and time—and matter—where?
++ What mightier hand than God’s could fling
++ The stars around the sky like sand?
++ Whose throes convuls’d the deepest sea,
++ And bade the abyss its secrets roar?
++ If Nature’s laws the stars control,
++ Then God is less than Nature’s soul.
 ```
 
-```
+```diff
 The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.
  
 Human: Hello, who are you?
-AI: I am an AI created by OpenAI. How can I help you today?
++ AI: I am an AI created by OpenAI. How can I help you today?
 Human: What are you up to today?
-AI: I'm preparing for OpenAI's robot games. I like playing video games so it's a lot of fun.
++ AI: I'm preparing for OpenAI's robot games. I like playing video games so it's a lot of fun.
 ```
 
 # Thank Yous
