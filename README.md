@@ -30,11 +30,11 @@ The **Prompt** categories so far are:
 
 <hr>
 
-**Prompts** & **Primers** are written in in JSON, such that this repo can be used as a static resource for those wanting to have programmatic access to these prompts. JSON offers a good balance between readability both for humans and machines. 🤖
+**Prompts** & **Primers** are written in in [YAML](https://yaml.org/ ), such that this repo can be used as a static resource for those wanting to have programmatic access to these prompts. YAML offers a good balance between readability both for humans and machines, and allows things that are harder to do in JSON such as block text. 🤖
 
 Please ensure any contributions made endeavour to maintain a high standard for human readability for those humans who may find this repo useful.
 
-Those of you who have never heard of JSON, don't worry - it's perfectly readable and you should get the hang of it pretty easily. It's just a way of ensuring the data has a readable but consistent, machine-readable structure.
+Those of you who have never heard of YAML, don't worry - it's perfectly readable and you should get the hang of it pretty easily. It's just a way of ensuring the data has a readable but consistent, machine-readable structure.
 
 # Guide (from OpenAI, adjusted for EthiX)
 
