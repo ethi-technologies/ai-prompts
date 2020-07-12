@@ -59,7 +59,7 @@ You’ll probably see a few more words than that being generated, since the defa
 
 **Prompt length:** One limitation to keep in mind is that the text prompt and generated completion must be below 2000 tokens together.
 
-The AI runs models with weights from the [GPT-3](https://arxiv.org/abs/2005.14165) family with many speed and throughput improvements. Ethi currently uses the biggest and most capable model, which is named **`davinci`**. In the future we may move to one of the other models: **`davinci`**, **`curie`**, **`babbage`** and **`ada`**. The models provide a spectrum of capability, where **`davinci`** is the most capable model and **`ada`** is the fastest.
+Ethi currently uses the biggest and most capable model, which is named **`davinci`**. In the future we may move to one of the other models: **`davinci`**, **`curie`**, **`babbage`** and **`ada`**. The models provide a spectrum of capability, where **`davinci`** is the most capable model and **`ada`** is the fastest.
 
 ---
 
