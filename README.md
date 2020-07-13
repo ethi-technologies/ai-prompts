@@ -18,8 +18,8 @@ We've split prompts into different directories; we've tried to make each directo
 The **Prompt** categories so far are:
 - [playground](./playground/README.md) - Miscellaneous, fun and interesting prompts that don't fit any other category.
 - [analysis](./analysis/README.md) - Analysing text, for example producing summaries, comprehension tasks, classification, spelling and grammar check, 1st to 3rd person translation, language translation.
-- [creative](./creative/README.md) - Creative pursuits, like writing a short story, a poem or generating fictional text in the style of famous authors.
 - [chatbots](./chatbots/README.md) - Helping you to understand yourself, ask you useful questions, help you to think about self-improvement.
+- [creative](./creative/README.md) - Creative pursuits, like writing a short story, a poem or generating fictional text in the style of famous authors.
 - [developer](./developer/README.md) - Generating code, parsing unstructured data, writing code documentation, Code Translation.
 - [informative](./informative/README.md) - Information querying. The AI has read _all_ of the internet, these prompts help you to query the AI for useful information. This might involve a Q & A with a famous scientist, or explaining topics as if to a 5 year old.
 - [psychology](./psychology/README.md) - Helping you to understand yourself, ask you useful questions, help you to think about self-improvement.
@@ -28,7 +28,11 @@ The **Prompt** categories so far are:
 
 ## Primers
 
-**Primers** are similar conceptually to **Prompts**, however, **Primers** are designed to impart contextual knowledge to the Assistant. Our aim with **Primers** is to _prime_ the Assistant with relevant information as densely as possible. For example, for interactions with involving [psychology](./psychology) prompts, you would want the Assistant to understand as much as possible about you in order to give responses that are more relevant _to you_. **Primers** are our attempt to figure out the most information dense way of priming **Prompts** with contextual information.
+**Primers** are similar conceptually to **Prompts**, however, **Primers** are designed to impart contextual knowledge to the Assistant.
+
+Our aim with **Primers** is to _prime_ the Assistant with relevant information as densely as possible. For example, for interactions with involving [psychology](./psychology) prompts, you would want the Assistant to understand as much as possible about you in order to give responses that are more relevant _to you_.
+
+**Primers** are our attempt to figure out the most information dense way of priming **Prompts** with contextual information.
 
 <hr>
 
@@ -37,6 +41,8 @@ The **Prompt** categories so far are:
 Please ensure any contributions made endeavour to maintain a high standard for human readability for those humans who may find this repo useful.
 
 Those of you who have never heard of YAML, don't worry - it's perfectly readable and you should get the hang of it pretty easily. It's just a way of ensuring the data has a readable but consistent, machine-readable structure.
+
+We also include more human readable examples in the README.md file for each directory - we welcome any contributions to that effect as well.
 
 # Guide (from OpenAI, adjusted for EthiX)
 

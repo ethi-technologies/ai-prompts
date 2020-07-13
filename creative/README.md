@@ -172,9 +172,8 @@ The next day, Kidd woke up from his sleep and went outside to see if there were 
 
 ## Text Adventure
 
-[**Bold** = **Prompt**, normal = AI]
-
-**This is a text adventure. You are in a dark forest, looking for the dragon that 
+```diff
+This is a text adventure. You are in a dark forest, looking for the dragon that 
 stole your town's gold.
  
 > look around
@@ -192,10 +191,11 @@ You don't see any gold.
 > walk down the path
 You are walking along the path, enjoying the nice spring weather. You come to a fork in the road.
  
-> take the left path**
-A giant spider blocks your path. "Hello, what's this? What have we here? 
-A tasty snack?" The spider hisses. You can't back away from the spider because
-it's blocking your path.
+> take the left path
++ A giant spider blocks your path. "Hello, what's this? What have we here? 
++ A tasty snack?" The spider hisses. You can't back away from the spider because
++ it's blocking your path.
+```
 
 ## 🎞 Film Transcripts
 
