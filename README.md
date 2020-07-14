@@ -11,7 +11,7 @@ Now that we've gone through the basics of getting started, let's explain the str
 
 ## [Prompts](./prompts)
 
-**Prompts** are the basic sauce of interacting with the AI used for EthiX's Assistant. Read the [**Guide**](./#guide) on this page to learn more about **Prompts**.
+**Prompts** are the basic sauce of interacting with the AI used for EthiX's Assistant. Read the [**Guide**](#guide) on this page to learn more about **Prompts**.
 
 We've split prompts into different directories; we've tried to make each directory a non-overlapping **category**, designed for a different type of interaction. For example, [creative](./creative) prompts like writing a fiction story or poem are a different category to question answering prompts which you'll find in the [informative](./informative) directory. We've tried to lay out in the [README.md](./playground/README.md) of each directory.
 
