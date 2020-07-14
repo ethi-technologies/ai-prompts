@@ -26,17 +26,7 @@ The **Prompt** categories so far are:
 - [sales](./sales/README.md) - Generating product/website/sales copy, social media posts, emails, headline generation.
 - [translation](./translation/README.md) - Translating between languages and different styles of writing e.g. from 1st to 3rd person text.
 
-## Primers
-
-**Primers** are similar conceptually to **Prompts**, however, **Primers** are designed to impart contextual knowledge to the Assistant.
-
-Our aim with **Primers** is to _prime_ the Assistant with relevant information as densely as possible. For example, for interactions with involving [psychology](./psychology) prompts, you would want the Assistant to understand as much as possible about you in order to give responses that are more relevant _to you_.
-
-**Primers** are our attempt to figure out the most information dense way of priming **Prompts** with contextual information.
-
-<hr>
-
-**Prompts** & **Primers** are written in in [YAML](https://yaml.org/ ), such that this repo can be used as a static resource for those wanting to have programmatic access to these prompts. YAML offers a good balance between readability both for humans and machines, and allows things that are harder to do in JSON such as block text. 🤖
+**Prompts** are written in in [YAML](https://yaml.org/ ), such that this repo can be used as a static resource for those wanting to have programmatic access to these prompts. YAML offers a good balance between readability both for humans and machines, and allows things that are harder to do in JSON such as block text. 🤖
 
 Please ensure any contributions made endeavour to maintain a high standard for human readability for those humans who may find this repo useful.
 
@@ -44,9 +34,9 @@ Those of you who have never heard of YAML, don't worry - it's perfectly readable
 
 We also include more human readable examples in the README.md file for each directory - we welcome any contributions to that effect as well.
 
-# Guide (from OpenAI, adjusted for EthiX)
+# Guide 
 
-The OpenAI API behind EthiX's capabilities is built to flexibly solve a number of language tasks with a unified text-in, text-out interface.
+The AI behind EthiX's capabilities is built to flexibly solve a number of language tasks with a unified text-in, text-out interface.
 
 **Text generation**
 Program the AI by describing your task in plain english as a set of instructions, or giving a few written examples. For example, summarization, translation, composing emails, and much more.
@@ -57,17 +47,6 @@ To use the AI, you simply give it a **text prompt💡**and it will return a text
 
 **Text prompt:** We define this as the text-based input or "instructions" you provide to the AI.
 
-## Key concepts
-
-There are three concepts that are core to interacting with the AI: **prompt,** **completion**, and **tokens**. The “prompt” is text input to the AI, and the “completion” is the text that the AI generates based on the prompt. For example, if you give the AI the prompt, “As Descartes said, I think, therefore”, it will return the completion “ I am” with high probability. It’s worth noting that the AI is stochastic by default, meaning that every time you call it you might get a slightly different completion, even if the prompt stays the same.
-
-You’ll probably see a few more words than that being generated, since the default setting for EthiX Notes is to generate **50 tokens**.💡 “Tokens”, which can be thought of as pieces of words. (Much like a jigsaw puzzle, the pieces are not cut up nicely according to the actual images displayed). The AI turns text into tokens before processing it, as a trick to be able to handle more text at once. For example, the word “Descartes” gets broken up into the tokens “Desc”, “art” and “es”, while a short and common word like “pear” is a single token. One thing you’ll notice is that many tokens start with a whitespace, for example “ hello” and “ bye”.
-
-**Prompt length:** One limitation to keep in mind is that the text prompt and generated completion must be below 2000 tokens together.
-
-Ethi currently uses the biggest and most capable model, which is named **`davinci`**. In the future we may move to one of the other models: **`davinci`**, **`curie`**, **`babbage`** and **`ada`**. The models provide a spectrum of capability, where **`davinci`** is the most capable model and **`ada`** is the fastest.
-
----
 
 ## Text Generation
 
@@ -115,17 +94,17 @@ Susan: Well, I'd run. You have to remember that dragons are huge, fire-breathin
 thought I could get through. Otherwise I'd run into a building, or even just dive into a hole in the ground.
 ```
 
-The point here is that if you want the API to answer questions, there are many ways to do it. The same goes for all other tasks, like summaries, chats, lists and so on. By giving the AI a detailed description of your task, it’s more likely that it’ll generate useful completions.
+The point here is that if you want the AI to answer questions, there are many ways to do it. The same goes for all other tasks, like summaries, chats, lists and so on. By giving the AI a detailed description of your task, it’s more likely that it’ll generate useful completions.
 
 ## Prompt design tips and tricks
 
 As discussed in the previous section, completions can vary a lot based on how the context is built up in the prompt. Writing out details around style, scope and so on will change the output, just as a clearer task description to a human would yield better results. Below are a few more tricks for getting good completions:
 
-**Examples:** The API picks up on patterns relatively quickly, so even a single example is often enough to give a decent completion. But adding 3-5 examples usually provides better results. Adding more examples than that sometimes help, but not always, since it can also constrain the model too much on the style or patterns of the specific examples. We recommend starting with around 3 examples, and seeing if adding more helps or hurts.
+**Examples:** The AI picks up on patterns relatively quickly, so even a single example is often enough to give a decent completion. But adding 3-5 examples usually provides better results. Adding more examples than that sometimes help, but not always, since it can also constrain the model too much on the style or patterns of the specific examples. We recommend starting with around 3 examples, and seeing if adding more helps or hurts.
 
 ### Examples
 
-You can get the API to answer questions by simply providing a few examples of questions and answers, like this:
+You can get the AI to answer questions by simply providing a few examples of questions and answers, like this:
 
 ```diff
 Q: What is human life expectancy in the United Kingdom?
@@ -172,9 +151,9 @@ Like clouds they shape themselves and go.
 The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.
  
 Human: Hello, who are you?
-+ AI: I am an AI created by OpenAI. How can I help you today?
++ AI: I am an AI. How can I help you today?
 Human: What are you up to today?
-+ AI: I'm preparing for OpenAI's robot games. I like playing video games so it's a lot of fun.
++ AI: I'm preparing for robot games. I like playing video games so it's a lot of fun.
 ```
 
 # Thank Yous
